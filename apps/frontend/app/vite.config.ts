@@ -19,6 +19,7 @@ export default defineConfig({
   server: {
     port: 4005,
     host: '0.0.0.0',
+    allowedHosts: true,
     fs: {
       allow: ['..'],
     },

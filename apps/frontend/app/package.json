@@ -15,10 +15,12 @@
     "@vibe-kanban/service1": "workspace:*",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "lucide-svelte": "^0.577.0",
     "puppeteer": "^24.39.1",
     "svelte": "^5.0.0",
     "tailwind-merge": "^3.5.0",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.1",
+    "vite-plugin-custom-domain": "^1.0.1"
   },
   "devDependencies": {
     "@internationalized/date": "^3.10.0",

@@ -17,7 +17,7 @@
     "dev:frontend": "bun run --bun --reload dev:app",
     "dev:service1": "bun run --filter '@vibe-kanban/service1' dev",
     "dev:reload": "bun run --filter '@vibe-kanban/service1' dev",
-    "dev:app": "bun run --filter '@vibe-kanban/svelte' dev",
+    "dev:app": "bun run --filter '@vibe-kanban/app' dev",
     "dev:svelte-app": "bun run --filter '@vibe-kanban/svelte-app' dev",
     "dev:svelte-webcomponent": "bun run --filter '@vibe-kanban/svelte-webcomponent' dev",
     "build": "bun run build:app",

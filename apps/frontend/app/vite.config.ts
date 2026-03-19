@@ -17,7 +17,8 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3000,
+    port: 4005,
+    host: '0.0.0.0',
     fs: {
       allow: ['..'],
     },

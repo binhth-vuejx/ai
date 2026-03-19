@@ -1,0 +1,1 @@
+import{_t as e,vt as t,xt as n}from"./index-Bkxpc8rI.js";var r=Symbol(`EMBLA_CAROUSEL_CONTEXT`);function i(e){return n(r,e),e}function a(n=`This component`){if(!t(r))throw Error(`${n} must be used within a <Carousel.Root> component`);return e(r)}export{i as n,a as t};

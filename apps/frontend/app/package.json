@@ -1,0 +1,41 @@
+{
+  "name": "@vibe-kanban/app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync:design": "npx tsx scripts/sync-design.ts"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "@trpc/client": "11.13.4",
+    "@vibe-kanban/service1": "workspace:*",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "puppeteer": "^24.39.1",
+    "svelte": "^5.0.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "@internationalized/date": "^3.10.0",
+    "@lucide/svelte": "^0.561.0",
+    "@tanstack/table-core": "^8.21.3",
+    "@types/bun": "latest",
+    "bits-ui": "^2.14.4",
+    "embla-carousel-svelte": "^8.6.0",
+    "formsnap": "^2.0.1",
+    "layerchart": "2.0.0-next.43",
+    "mode-watcher": "^1.1.0",
+    "paneforge": "^1.0.2",
+    "rollup-plugin-visualizer": "^7.0.1",
+    "svelte-sonner": "^1.0.7",
+    "sveltekit-superforms": "^2.28.1",
+    "tailwind-variants": "^3.2.2",
+    "vaul-svelte": "^1.0.0-next.7",
+    "vite": "8.0.0"
+  }
+}

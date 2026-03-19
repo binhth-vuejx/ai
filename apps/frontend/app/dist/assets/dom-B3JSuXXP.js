@@ -1,0 +1,1 @@
+function e(e){if(!e)return null;for(let t of e.childNodes)if(t.nodeType!==Node.COMMENT_NODE)return t;return null}function t(e,t){let{clientX:n,clientY:r}=e,i=t.getBoundingClientRect();return n<i.left||n>i.right||r<i.top||r>i.bottom}export{t as n,e as t};

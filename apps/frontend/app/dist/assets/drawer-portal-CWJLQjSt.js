@@ -1,0 +1,1 @@
+import{E as e,F as t,I as n,i as r,ot as i,r as a}from"./index-Bkxpc8rI.js";import"./dist-BwqK01Bp.js";import"./index-client-C4XduGtf.js";import"./dist-Xp6eoV2l.js";import"./dist-UJop0CR-.js";import{a as o}from"./dist-8KVkDlZX.js";function s(s,c){let l=a(c,[`$$slots`,`$$events`,`$$legacy`]);var u=n();e(i(u),()=>o,(e,t)=>{t(e,r(()=>l))}),t(s,u)}export{s as default};

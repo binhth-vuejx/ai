@@ -1,0 +1,1 @@
+function e(e,t){return t===void 0?`bits-${e}`:`bits-${e}-${t}`}export{e as t};

@@ -1,0 +1,1 @@
+import{bt as e,i as t,n,r,yt as i}from"./index-Bkxpc8rI.js";import{t as a}from"./button-DrzdmrPp.js";import"./button-Cz_hsqFd.js";function o(o,s){e(s,!0);let c=n(s,`ref`,15,null),l=r(s,[`$$slots`,`$$events`,`$$legacy`,`ref`]);a(o,t({type:`submit`},()=>l,{get ref(){return c()},set ref(e){c(e)}})),i()}export{o as default};

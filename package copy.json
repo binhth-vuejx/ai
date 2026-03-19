@@ -1,0 +1,33 @@
+{
+  "name": "vibe-kanban",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/backend/*",
+    "apps/frontend/*",
+    "packages/*",
+    "packages/trpc-types/*"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "lsof -ti:3001 | xargs kill -9 2>/dev/null || true && lsof -ti:3000 | xargs kill -9 2>/dev/null || true && bun run dev:all",
+    "dev:all": "bun run dev:backend & bun run dev:frontend",
+    "dev:backend": "bun run --bun --reload apps/backend/service1/src/index.ts",
+    "dev:frontend": "bun run --bun --reload dev:app",
+    "dev:service1": "bun run --bun --reload apps/backend/service1/src/index.ts",
+    "dev:reload": "bun run --bun --reload apps/backend/service1/src/index.ts",
+    "dev:app": "bun run --filter '@vibe-kanban/app' dev",
+    "dev:svelte-app": "bun run --filter '@vibe-kanban/svelte-app' dev",
+    "dev:svelte-webcomponent": "bun run --filter '@vibe-kanban/svelte-webcomponent' dev",
+    "build": "bun run build:app",
+    "build:packages": "bun run --filter @vibe-kanban/trpc-service1 build",
+    "build:service1": "bun build apps/backend/service1/src/index.ts",
+    "build:app": "bun run --filter '@vibe-kanban/app' build",
+    "build:svelte-app": "bun run --filter '@vibe-kanban/svelte-app' build",
+    "preview:app": "bun run --filter '@vibe-kanban/app' preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

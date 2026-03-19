@@ -1,0 +1,1 @@
+import{J as e}from"./index-Bkxpc8rI.js";function t(t){e().then(t)}export{t};

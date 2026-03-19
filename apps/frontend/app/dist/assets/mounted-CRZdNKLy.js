@@ -1,0 +1,1 @@
+import{bt as e,n as t,yt as n}from"./index-Bkxpc8rI.js";import{t as r}from"./on-mount-effect.svelte-D7x3BhTx.js";import{t as i}from"./noop-BBySDY6m.js";function a(a,o){e(o,!0);let s=t(o,`mounted`,15,!1),c=t(o,`onMountedChange`,3,i);r(()=>(s(!0),c()(!0),()=>{s(!1),c()(!1)})),n()}export{a as t};

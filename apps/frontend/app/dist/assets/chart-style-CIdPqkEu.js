@@ -1,0 +1,4 @@
+import{A as e,B as t,F as n,I as r,N as i,S as a,bt as o,et as s,j as c,ot as l,pt as u,q as d,yt as f}from"./index-Bkxpc8rI.js";import{t as p}from"./chart-utils-B00fYr5x.js";function m(m,h){o(h,!0);let g=u(()=>h.config?Object.entries(h.config).filter(([,e])=>e.theme||e.color):null),_=u(()=>{if(!d(g)||!d(g).length)return;let e=[];for(let[t,n]of Object.entries(p)){let r=`${n} [data-chart=${h.id}] {\n`,i=d(g).map(([e,n])=>{let r=t,i=n.theme?.[r]||n.color;return i?`\t--color-${e}: ${i};`:null});r+=i.join(`
+`)+`
+}`,e.push(r)}return e.join(`
+`)});var v=r(),y=l(v),b=o=>{var c=r();e(l(c),()=>h.id,e=>{var o=r();a(l(o),()=>`style`,!1,(e,r)=>{var a=t();s(()=>i(a,d(_))),n(r,a)}),n(e,o)}),n(o,c)};c(y,e=>{d(_)&&e(b)}),n(m,v),f()}export{m as default};

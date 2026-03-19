@@ -1,0 +1,1 @@
+import{D as e,F as t,I as n,bt as r,kt as i,n as a,ot as o,yt as s}from"./index-Bkxpc8rI.js";import{i as c}from"./use-floating-layer.svelte-CyA8CU2z.js";function l(l,u){r(u,!0);let d=a(u,`tooltip`,3,!1);c.create(d());var f=n();e(o(f),()=>u.children??i),t(l,f),s()}export{l as t};

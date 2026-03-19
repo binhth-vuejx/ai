@@ -1,0 +1,1 @@
+import{W as e}from"./index-Bkxpc8rI.js";var t=class{eventName;options;constructor(e,t={bubbles:!0,cancelable:!0}){this.eventName=e,this.options=t}createEvent(e){return new CustomEvent(this.eventName,{...this.options,detail:e})}dispatch(e,t){let n=this.createEvent(t);return e.dispatchEvent(n),n}listen(t,n,r){return e(t,this.eventName,e=>{n(e)},r)}};export{t};

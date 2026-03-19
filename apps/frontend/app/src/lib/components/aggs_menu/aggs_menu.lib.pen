@@ -1,0 +1,335 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "0t1Rq",
+      "x": -558,
+      "y": -299,
+      "name": "Frame 1",
+      "clip": true,
+      "width": 992,
+      "height": 564,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "rUoOI",
+          "x": 271,
+          "y": 90,
+          "name": "aggs_menu",
+          "width": 350,
+          "fill": "#FFFFFF00",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "enabled": false,
+            "color": "#000000"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "P3g57",
+              "name": "Header",
+              "width": "fill_container",
+              "height": 36,
+              "padding": [
+                0,
+                8,
+                0,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "ry4hN",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Green Slant",
+                  "geometry": "M0 0h240l40 36h-280v-36z",
+                  "fill": "#005A2B",
+                  "width": 208,
+                  "height": 36
+                },
+                {
+                  "type": "text",
+                  "id": "Etf9N",
+                  "name": "header_text",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width-height",
+                  "width": 149,
+                  "height": 10,
+                  "content": "THÔNG TIN DI SẢN",
+                  "lineHeight": 1,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "57qvM",
+                  "name": "Back Button Wrapper",
+                  "width": 36,
+                  "height": 28,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 6,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000030",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 4
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "VzP36",
+                      "name": "back_icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "undo",
+                      "iconFontFamily": "lucide",
+                      "fill": "#003366"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oA1kA",
+              "name": "Item Active",
+              "width": "fill_container",
+              "fill": "#FFF9E5",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oYsDO",
+                  "name": "item1_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Thông tin chung",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9WIiA",
+              "name": "Item 2",
+              "rotation": -0.012062969773316265,
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rGjIz",
+                  "name": "item2_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hồ sơ văn bản",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bUSgp",
+              "name": "Item 3",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K08zp",
+                  "name": "item3_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hệ sinh thái",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZQ5dP",
+              "name": "Item 4",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qKrPE",
+                  "name": "item4_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Loài",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qIJrj",
+              "name": "Item 5",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "82M4a",
+                  "name": "item5_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Bảo tồn gen",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NX6lC",
+              "name": "Item 6",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1
+                },
+                "fill": "#dddddd"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ILxsl",
+                  "name": "item6_text",
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Vị trí địa lý",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gHkmO",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 36,
+              "name": "Header Bottom Line",
+              "width": 350,
+              "height": 4,
+              "fill": "#005A2B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

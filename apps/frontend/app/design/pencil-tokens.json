@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "source": "pencil-shadcn.pen",
+    "theme": "Neutral",
+    "lastSynced": "2026-03-18",
+    "note": "Run 'npm run sync:design' to re-export and sync these tokens with index.css"
+  },
+  "light": {
+    "--background": "#fafafa",
+    "--foreground": "#0a0a0a",
+    "--card": "#fafafa",
+    "--card-foreground": "#0a0a0a",
+    "--popover": "#fafafa",
+    "--popover-foreground": "#0a0a0a",
+    "--primary": "#171717",
+    "--primary-foreground": "#fafafa",
+    "--secondary": "#f5f5f5",
+    "--secondary-foreground": "#171717",
+    "--muted": "#f5f5f5",
+    "--muted-foreground": "#737373",
+    "--accent": "#f5f5f5",
+    "--accent-foreground": "#171717",
+    "--destructive": "#e7000b",
+    "--destructive-foreground": "#fafafa",
+    "--border": "#e5e5e5",
+    "--input": "#e5e5e5",
+    "--ring": "#a3a3a3",
+    "--sidebar": "#fafafa",
+    "--sidebar-foreground": "#09090b",
+    "--sidebar-primary": "#18181b",
+    "--sidebar-primary-foreground": "#fafafa",
+    "--sidebar-accent": "#f4f4f4",
+    "--sidebar-accent-foreground": "#18181b",
+    "--sidebar-border": "#e4e4e7",
+    "--sidebar-ring": "#71717a"
+  },
+  "dark": {
+    "--background": "#0a0a0a",
+    "--foreground": "#fafafa",
+    "--card": "#171717",
+    "--card-foreground": "#fafafa",
+    "--popover": "#171717",
+    "--popover-foreground": "#fafafa",
+    "--primary": "#e5e5e5",
+    "--primary-foreground": "#171717",
+    "--secondary": "#262626",
+    "--secondary-foreground": "#fafafa",
+    "--muted": "#262626",
+    "--muted-foreground": "#a3a3a3",
+    "--accent": "#262626",
+    "--accent-foreground": "#fafafa",
+    "--destructive": "rgba(255, 102, 105, 0.6)",
+    "--destructive-foreground": "#fafafa",
+    "--border": "rgba(255, 255, 255, 0.1)",
+    "--input": "rgba(255, 255, 255, 0.1)",
+    "--ring": "#737373",
+    "--sidebar": "#18181b",
+    "--sidebar-foreground": "#fafafa",
+    "--sidebar-primary": "#1447e6",
+    "--sidebar-primary-foreground": "#fafafa",
+    "--sidebar-accent": "#2a2a30",
+    "--sidebar-accent-foreground": "#fafafa",
+    "--sidebar-border": "rgba(255, 255, 255, 0.1)",
+    "--sidebar-ring": "#71717a"
+  },
+  "components": {
+    "button": {
+      "radius": "6px",
+      "padding": { "default": "8px 16px", "large": "8px 24px" },
+      "gap": "6px",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "variants": {
+        "default": { "background": "$--primary", "color": "$--primary-foreground" },
+        "secondary": { "background": "$--secondary", "color": "$--secondary-foreground" },
+        "destructive": { "background": "$--destructive", "color": "#ffffff" },
+        "outline": { "background": "$--background", "color": "$--foreground", "border": "$--border" },
+        "ghost": { "background": "transparent", "color": "$--foreground" }
+      }
+    },
+    "badge": {
+      "radius": "16px",
+      "padding": "2px 8px",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "variants": {
+        "default": { "background": "$--primary", "color": "$--primary-foreground" },
+        "secondary": { "background": "$--secondary", "color": "$--secondary-foreground" },
+        "destructive": { "background": "$--destructive", "color": "#ffffff" },
+        "outline": { "background": "transparent", "color": "$--foreground", "border": "$--border" }
+      }
+    },
+    "card": {
+      "radius": "8px",
+      "background": "$--card",
+      "foreground": "$--card-foreground",
+      "border": "$--border",
+      "shadow": "0 1px 3.5px rgba(0,0,0,0.05)"
+    },
+    "input": {
+      "radius": "6px",
+      "padding": "10px 12px",
+      "background": "$--background",
+      "border": "$--input",
+      "fontSize": "14px"
+    },
+    "sidebar": {
+      "background": "$--sidebar",
+      "foreground": "$--sidebar-foreground",
+      "border": "$--sidebar-border",
+      "accent": "$--sidebar-accent",
+      "accentForeground": "$--sidebar-accent-foreground",
+      "primaryItem": { "background": "$--sidebar-accent" }
+    },
+    "switch": {
+      "width": "44px",
+      "height": "24px",
+      "thumbSize": "20px",
+      "thumbTranslate": "20px"
+    }
+  }
+}

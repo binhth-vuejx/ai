@@ -1,0 +1,1 @@
+import{D as e,F as t,I as n,bt as r,kt as i,ot as a,yt as o}from"./index-Bkxpc8rI.js";import{d as s,r as c}from"./formsnap.svelte-CDySzZ0p.js";function l(l,u){r(u,!0);let d=c({form:s.with(()=>u.form),name:s.with(()=>u.name)});var f=n();e(a(f),()=>u.children??i,()=>d.snippetProps),t(l,f),o()}export{l as t};

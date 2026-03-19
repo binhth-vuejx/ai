@@ -1,0 +1,1 @@
+import{Q as e,ht as t,mt as n}from"./index-Bkxpc8rI.js";function r(r){let i,a=n(e=>{let t=!1,n=r.subscribe(n=>{i=n,t&&e()});return t=!0,n});function o(){return e()?(a(),i):t(r)}return`set`in r?{get current(){return o()},set current(e){r.set(e)}}:{get current(){return o()}}}export{r as t};

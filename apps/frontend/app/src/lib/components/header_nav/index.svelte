@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { cn } from "@/lib/utils.js";
 	import * as Menubar from "$lib/components/ui/menubar/index.js";
-	import { ChevronDown } from "lucide-svelte";
+	import { ChevronDown } from "@lucide/svelte";
 
 	interface NavItem {
 		id: string;

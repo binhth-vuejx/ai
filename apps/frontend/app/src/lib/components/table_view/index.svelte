@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LayoutGrid, CornerDownRight } from "lucide-svelte";
+  import { LayoutGrid, CornerDownRight } from "@lucide/svelte";
 
   interface Row {
     label: string;

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Search, ChevronUp, ChevronDown, ChevronLeft, ChevronRight, Check, X } from "lucide-svelte";
+	import { Search, ChevronUp, ChevronDown, ChevronLeft, ChevronRight, Check, X } from "@lucide/svelte";
 	import { cn } from "$lib/utils.js";
 
 	interface Province {

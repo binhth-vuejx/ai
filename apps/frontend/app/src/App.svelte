@@ -9,6 +9,7 @@
   import TableView from "$lib/components/table_view/index.svelte";
 
   let currentPath = $state(window.location.hash);
+  let today = $state(new Date().toLocaleDateString("vi-VN", { day: "2-digit", month: "2-digit", year: "numeric" }));
 
   const routes = {
     "#/aggs_left": AggsLeft,
@@ -40,7 +41,7 @@
       </div>
     {:else}
       <div class="flex flex-col gap-4">
-        <h1 class="text-2xl font-bold text-slate-900">Component Test Router</h1>
+        <h1 class="text-2xl font-bold text-blue-600">Component Test Router - {today}</h1>
         <ul class="flex flex-col gap-2">
           {#each Object.keys(routes) as route}
             <li>

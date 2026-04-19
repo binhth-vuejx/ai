@@ -19,7 +19,8 @@
     "puppeteer": "^24.39.1",
     "svelte": "^5.0.0",
     "tailwind-merge": "^3.5.0",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.1",
+    "vite-plugin-custom-domain": "^1.0.1"
   },
   "devDependencies": {
     "@internationalized/date": "^3.10.0",

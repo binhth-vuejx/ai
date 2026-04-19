@@ -11,7 +11,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "lsof -ti:3001 | xargs kill -9 2>/dev/null || true && lsof -ti:3000 | xargs kill -9 2>/dev/null || true && bun run dev:all",
+    "dev": "lsof -ti:3001 | xargs kill -9 2>/dev/null || true && lsof -ti:4005 | xargs kill -9 2>/dev/null || true && bun run dev:all",
     "dev:all": "bun run dev:backend & bun run dev:frontend",
     "dev:backend": "bun run --bun --reload --filter '@vibe-kanban/service1' dev",
     "dev:frontend": "bun run --bun --reload dev:app",
